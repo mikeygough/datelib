@@ -4,7 +4,7 @@ a JS library for dates.
 
 `npm test` to run all tests
 
-`npm jest --coverage` to run test coverage report
+`npm test --coverage` to run test coverage report
 
 #### notes
 
