@@ -175,4 +175,4 @@ class D {
   }
 }
 
-module.exports = D;
+export { D };
