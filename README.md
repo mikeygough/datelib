@@ -1,5 +1,9 @@
 # datelib
 
+![npm bundle size](https://img.shields.io/bundlephobia/min/%40mikeygough%2Fdatelib)
+
+![NPM Version](https://img.shields.io/npm/v/%40mikeygough%2Fdatelib)
+
 datelib is a JS library for dates.
 
 this library includes the D object with several date helper methods. D wraps the traditional `Date` object and provides programmer convenienances including:
