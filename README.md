@@ -1,12 +1,46 @@
 # datelib
 
-a JS library for dates.
+datelib is a JS library for dates.
 
-`npm test` to run all tests
+this library includes the D object with several date helper methods. D wraps the traditional `Date` object and provides programmer convenienances including:
 
-`npm test --coverage` to run test coverage report
+- D.year
 
-#### notes
+- D.yr
+
+- D.month
+
+- D.mon
+
+- D.dy
+
+- D.date
+
+- D.getfancyDate [this is a helper method for D.format()]
+
+- D.hours
+
+- D.mins
+
+- D.secs
+
+- D.format()
+
+- D.when()
+
+### testing notes
+
+this repository includes unit tests. the tests are helpful for understanding how each function should perform. if you add a new function, please add a corresponding test.
+
+run all tests with:
+
+`npm test`
+
+generate a test coverage report with:
+
+`npm jest --coverage`
+
+#### additional notes
 
 dates in JS are represented as the number of milliseconds since Thursday, January 1, 1970, 12:00 AM. this is called the unix Epoch.
 
