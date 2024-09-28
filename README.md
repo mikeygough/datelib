@@ -6,6 +6,12 @@
 
 datelib is a JS library for dates.
 
+### Test App
+
+[datesplat](https://github.com/mikeygough/datesplat) is a small React project which showcases datelib.
+
+### Description
+
 this library includes the D object with several date helper methods. D wraps the traditional `Date` object and provides programmer convenienances including:
 
 - D.year
